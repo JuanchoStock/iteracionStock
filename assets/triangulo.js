@@ -8,13 +8,9 @@
 // ####
 // #####
 
-const altura = 5;
-let triangulo = [];
-let i = 0;
+triangulo = '#';
 
-for ( i; i <= altura; i ++ ){
-  let linea = Array(i).fill('#').join('');
-  
-  triangulo.push(linea);
+for ( let i = 0; i <= 5; i ++ ){
+  console.log(triangulo);
+  triangulo += '#'
 }
-triangulo.forEach(linea => console.log(linea));
